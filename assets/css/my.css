@@ -1,0 +1,125 @@
+@CHARSET "ISO-8859-1";
+
+.navbar-inverse .navbar-brand {
+	color: rgb(62, 251, 39);
+}
+
+
+.col-md-3.col-sm-6.col-xs-12.icon-center {
+    text-align: -webkit-center;
+}
+
+.dropdown-menu>li>a {
+	color: blue;
+}
+
+@media screen and (max-width: 767px) .carousel-indicators {
+	bottom
+	:
+	3px;
+	
+
+}
+
+
+
+
+.btn{
+margin-left:5px;
+margin-right:5px;
+}
+.div-a{
+	text-decoration:underline;
+	font-size:15px;
+	font-family:fantasy;
+}
+.div-a:hover{
+	color:limegreen;
+}
+
+.height1 {
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.settin {
+	bottom: 110px;
+}
+
+.imgheight {
+	height: 300px;
+}
+
+.carousel-inner>.item>img {
+	height: 300px;
+	top:0px;
+}
+
+.carousel-inner>.item>.second-slide {
+	
+    height: 273px;
+    top: 31px;
+
+}
+
+.bar {
+	margin-bottom: 0px;
+	margin-top: -50px;
+}
+
+.upper {
+	background-color: whitesmoke;
+}
+
+.btn-sm, .btn-group-sm {
+	margin-bottom: 70px;
+}
+
+.btn-lg, .btn-group-lg {
+	margin-bottom: 69px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover,
+	.navbar-inverse .navbar-nav>.active>a:focus {
+	background-color: #4FB708;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,
+	.navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #4FB708;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #4FB708;
+}
+.btn-success{
+	background-color: #4FB708;
+}
+.text-muted {
+    color: #222;
+}
+.carousel .item {
+	background-color: whitesmoke;
+}
+
+.carousel-indicators .active {
+	background-color: rgb(62, 251, 39);
+	margin-bottom: -29px;
+}
+
+.carousel-indicators li {
+	background-color: rgb(62, 251, 39);
+	margin-bottom: -29px;
+}
+
+body {
+	color: background-color: rgb(62, 251, 39);
+}
+
+.h11 {
+	color: rgb(62, 251, 39);
+	margin-bottom:30px;
+}
