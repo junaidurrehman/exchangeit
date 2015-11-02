@@ -11,12 +11,14 @@
 
 <title>ExchangeIt</title>
 
+
 <!-- Bootstrap core CSS -->
 <link href="<?php echo  base_url() ?>assets/css/bootstrap.css" rel="stylesheet">
 
 <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
 <script src="<?php echo  base_url() ?>assets/js/ie-emulation-modes-warning.js"></script>
+<script src="<?php echo  base_url() ?>assets/js/radiobutton.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -28,6 +30,11 @@
 <link href="<?php echo  base_url() ?>assets/css/carousel.css" rel="stylesheet">
 <link href="<?php echo  base_url() ?>assets/css/my.css" rel="stylesheet">
 <link href="<?php echo  base_url() ?>assets/css/signin.css" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/86701580/mypersonalcdn/renda/renda-icon-font.css">
+
+
 
 <!-- -its for image uploaded in form.php -->
 <link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
@@ -50,6 +57,7 @@ function readURL(input) {
     }
 
 </script>
+
 
 <!-- Optional theme -->
 <script

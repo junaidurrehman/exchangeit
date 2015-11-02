@@ -11,9 +11,7 @@ class Exchange extends Public_Restricted_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		$this->load->database();
 		$this->load->library(array('form_validation'));
-		$this->load->helper(array('url','language'));
 		$this->load->model('ads_model');
 		
 		$this->lang->load('ads');
