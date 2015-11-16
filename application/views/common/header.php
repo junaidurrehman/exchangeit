@@ -168,7 +168,7 @@ function readURL(input) {
 						<a href="<?php echo base_url()?>users/logout"
 							class="pull-right btn btn-info navbar-btn"> <span
 							class="glyphicon glyphicon-log-out"></span> Log out
-						</a> <a href="<?php echo base_url()?>exchange" class="pull-right btn btn-success navbar-btn"> <span
+						</a> <a href="<?php echo base_url()?>ads/add_ads" class="pull-right btn btn-success navbar-btn"> <span
 							class="glyphicon glyphicon-plus"></span> Post an ad
 						</a>
 						   
