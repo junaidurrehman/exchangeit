@@ -70,12 +70,35 @@
 			<?php foreach ($wants as $key=>$want) {?>
 			<td>
 				<?php foreach ($recommendations[$key] as $recommendation) {?>
-				<div>
-			<label>Category id of those who have similar item to exchange = <?php echo $recommendation->category_id?> </label>
-					 <br>
-					 <!-- category name of user who is recemmended to original user !! -->
-					 <label>username =<?php echo $recommendation->user_name?></label><br>
-					<label> have id of those who are recommended for exchange<?php echo $recommendation->have_id?></label>
+				<div class="well">
+					<h1 class="test-center text-danger">Want of other client</h1>
+					<div>$want_id : <?php echo $recommendation->want_id?></div>
+					<div>$have_id : <?php echo $recommendation->have_id?></div>
+					<div>$want_category_id : <?php echo $recommendation->want_category_id?></div>
+					<div>$want_company_id : <?php echo $recommendation->want_company_id?></div>
+					<div>$want_model : <?php echo $recommendation->want_model?></div>
+					<div>$want_condition : <?php echo $recommendation->want_condition?></div>
+					<div>$want_compensate_value : <?php echo $recommendation->want_compensate_value?></div>
+					<div>$want_will_give : <?php echo $recommendation->want_will_give?></div>
+					<div>$user_id : <?php echo $recommendation->user_id?></div>
+					
+					<div>$want_category_id : <?php echo $recommendation->want_category_id?></div>
+					<div>$want_company_id : <?php echo $recommendation->want_company_id?></div>
+					<div>$want_category_name : <?php echo $recommendation->want_category_name?></div>
+					<div>$want_company_name : <?php echo $recommendation->want_company_name?></div>
+					
+					
+					<h1 class="test-center text-danger">Have of other client</h1>
+					<div>$category_id : <?php echo $recommendation->category_id?></div>
+					<div>$company_id : <?php echo $recommendation->company_id?></div>
+					<div>$model : <?php echo $recommendation->model?></div>
+					<div>$condition : <?php echo $recommendation->condition?></div>
+					<div>$description : <?php echo $recommendation->description?></div>
+					<div>$value : <?php echo $recommendation->value?></div>
+					<div>$have_company_id : <?php echo $recommendation->have_company_id?></div>
+					<div>$have_company_name : <?php echo $recommendation->have_company_name?></div>
+					<div>$have_category_id : <?php echo $recommendation->have_category_id?></div>
+					<div>$have_category_name : <?php echo $recommendation->have_category_name?></div>
 				</div>
 				<?php }?>
 			</td>

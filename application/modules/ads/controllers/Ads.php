@@ -92,7 +92,7 @@ class Ads extends Public_Restricted_Controller
 				$percentage_price = $final_price/$total ;
 				$points += (20 * (1-$percentage_price));
 				
-				var_dump(($points/150)*100);
+				//var_dump(($points/150)*100);
 				
 			}
        echo '<hr>';

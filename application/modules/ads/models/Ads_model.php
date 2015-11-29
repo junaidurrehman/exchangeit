@@ -62,9 +62,15 @@ class Ads_Model extends CI_Model
 	}
 	public function get_recommendations($have_category_id,$want_category_id,$user_id,$have_id)
 	{
-		$this->db->select('a.* , b.*');
+		$this->db->select('a.* , b.* ,c.id as want_company_id , c.company_name as want_company_name ,d.id as want_category_id , d.name as want_category_name,     e.id as have_company_id , e.company_name as have_company_name ,f.id as have_category_id , f.name as have_category_name');
 		$this->db->from('want as a');
 		$this->db->join('have as b','b.category_id='.$want_category_id.' and b.id=a.have_id and a.want_category_id='.$have_category_id.' and b.id!='.$have_id);
+		$this->db->join('category as d','a.want_category_id=d.id');
+		$this->db->join('companies as c','a.want_company_id=c.id');
+		
+
+		$this->db->join('category as f','b.category_id=f.id');
+		$this->db->join('companies as e','b.company_id=e.id');
 		$query = $this->db->get();
 		$result = $query->result();
 		return  $result ;
