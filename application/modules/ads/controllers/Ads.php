@@ -93,7 +93,7 @@ class Ads extends Public_Restricted_Controller
 				$points += (20 * (1-$percentage_price));
 				
 				//var_dump(($points/150)*100);
-				
+				$recommend->percententage = $points ;
 			}
        echo '<hr>';
 			$recommends_array[] = $recommends;
